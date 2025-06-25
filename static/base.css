@@ -13,27 +13,34 @@ body {
     height: 100vh;
 }
 
+main {
+    flex: 1;
+}
+
+/* adding a black stripe to the very top of the page */
 .topborder {
     background-color: black;
     height: 10px;
     flex-shrink: 0;
 }
 
+/* making edits to the top navigation bar */
 .topnav {
     background-color:#373840;
     overflow: hidden;
     width: 100%;
     flex-shrink: 0;
+    height: 130px;
 }
 
 .topnav a {
     float: left;
+    line-height: 100px;
     color: #f2f2f2;
     text-align: left;
-    padding: 14px 16px;
+    padding: 15px 65px;
     text-decoration: none;
-    font-size: 17px;
-    height: 100px;
+    font-size: 20px;
     font-family: "Nexa", "Arial";
 }
 
@@ -41,14 +48,26 @@ body {
     color: #cacbd9;
 }
 
+/* making edits to the bottom navigation bar */
 footer {
     background-color: #373840;
     height: 500px;
     flex-shrink: 0;
 }
 
-main {
-    flex: 1;
+footer a {
+    float: left;
+    color: #f2f2f2;
+    display: grid;
+    text-align: left;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: "Nexa", "Arial";
+}
+
+footer a:hover {
+    color: #cacbd9;
 }
 
 .header {
