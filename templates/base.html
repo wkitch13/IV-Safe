@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>IV-Safe</title>
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.png') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='homepage.css') }}">
+    </head>
+
+    <div class="topnav">
+        <a href="/" class="pull-left">
+            <img src="{{ url_for('static', filename='images/logoprimary.png') }}" alt="IV" style="width:190px;height:100px">
+        </a>
+        <a class="active" href="/">HOME</a>
+        <a href="/leakage">LEAKAGE</a>
+        <a href="/swelling">SWELLING</a>
+        <a href="/team">TEAM</a>
+        <a href="/about">ABOUT</a>
+    </div>
+
+{% block content %}
+{% endblock %}
+
+</html>
