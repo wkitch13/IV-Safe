@@ -13,6 +13,12 @@ body {
     height: 100vh;
 }
 
+.topborder {
+    background-color: black;
+    height: 10px;
+    flex-shrink: 0;
+}
+
 .topnav {
     background-color:#373840;
     overflow: hidden;
@@ -32,13 +38,7 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.topnav a:active {
-    background-color: #04AA6D;
-    color: white;
+    color: #cacbd9;
 }
 
 footer {
@@ -49,4 +49,18 @@ footer {
 
 main {
     flex: 1;
+}
+
+.header {
+    padding: 100px;
+    text-align: center;
+    background-color: #cacbd9;
+    font-size: 30px;
+    font-family: "Nexa", "Arial";
+}
+
+.p1 {
+    padding: 50px;
+    font-size: 25px;
+    font-family: "Nexa", "Arial";
 }
