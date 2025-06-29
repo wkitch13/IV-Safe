@@ -2,8 +2,20 @@
 
 {% block content %}
     <body>
-        <h1>
-            Swelling
-        </h1>
+        <div class="header">Swelling</div>
+        <div class="p1">
+           Swelling is one of the first symptoms of IV failure, however it can be difficult to detect visually. Swelling
+            is due to a buildup of fluid under the skin and inflammation due to contact with the infiltrating medicine.
+            IV-Safe detects swelling by utilizing a material that changes color upon stretching. The material is objective,
+            unlike a visual assessment. It will be able to detect even small swelling changes localized to the IV site.
+        </div>
+
+        <div class="image_homepage">
+            <img src="{{ url_for('static', filename='images/swelling_setup.png') }}" alt="IV" style="width:auto;height:300px">
+        </div>
+
+        <div class="image_homepage">
+            <img src="{{ url_for('static', filename='images/swelling_demo.png') }}" alt="IV" style="width:auto;height:300px">
+        </div>
     </body>
 {% endblock %}
