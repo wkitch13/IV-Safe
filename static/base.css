@@ -75,7 +75,7 @@ footer a:hover {
     padding: 100px;
     text-align: center;
     background-color: #cacbd9;
-    font-size: 30px;
+    font-size: 75px;
     font-family: "Nexa", "Arial";
 }
 
@@ -85,11 +85,12 @@ footer a:hover {
     font-family: "Nexa", "Arial";
 }
 
+/* working on the meet the team formatting */
 .img_team_center {
     display: flex;
     align-items: flex-start;
     gap: 50px;
-    padding: 100px 250px;
+    padding: 50px 250px 0px;
 }
 
 .img_team_center img {
@@ -111,4 +112,40 @@ footer a:hover {
     font-size: 20px;
     font-family: "Nexa", "Arial";
     padding: 25px 0px;
+}
+
+.img_team_column {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 50px 50px;
+}
+
+.img_team_column img {
+    border: 5px solid #cacbd9;
+}
+
+.img_team_column .name {
+    font-size: 40px;
+    font-family: "Nexa", "Arial";
+}
+
+.img_team_column .title {
+    font-size: 25px;
+    font-family: "Nexa", "Arial";
+    color: #5f617d;
+}
+
+.img_team_column .description {
+    font-size: 20px;
+    font-family: "Nexa", "Arial";
+    padding: 25px 0px;
+}
+
+.header_small {
+    padding: 25px;
+    text-align: center;
+    background-color: #5f617d;
+    font-size: 45px;
+    font-family: "Nexa", "Arial";
 }
