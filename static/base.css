@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: white;
 }
 
 main {
@@ -45,7 +46,7 @@ main {
 }
 
 .topnav a:hover {
-    color: #cacbd9;
+    color: #5f617d;
 }
 
 /* making edits to the bottom navigation bar */
@@ -82,4 +83,32 @@ footer a:hover {
     padding: 50px;
     font-size: 25px;
     font-family: "Nexa", "Arial";
+}
+
+.img_team_center {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 100px 250px;
+}
+
+.img_team_center img {
+    border: 5px solid #cacbd9;
+}
+
+.img_team_center .name {
+    font-size: 40px;
+    font-family: "Nexa", "Arial";
+}
+
+.img_team_center .title {
+    font-size: 25px;
+    font-family: "Nexa", "Arial";
+    color: #5f617d;
+}
+
+.img_team_center .description {
+    font-size: 20px;
+    font-family: "Nexa", "Arial";
+    padding: 25px 0px;
 }
