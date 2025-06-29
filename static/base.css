@@ -95,10 +95,15 @@ footer a:hover {
 
 .img_team_center img {
     border: 5px solid #cacbd9;
+    width: 100%;
+}
+
+.img_team_center .text {
+    width: 100%;
 }
 
 .img_team_center .name {
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Nexa", "Arial";
 }
 
@@ -118,15 +123,20 @@ footer a:hover {
     display: flex;
     align-items: flex-start;
     gap: 25px;
-    padding: 50px 50px;
+    padding: 25px 50px;
 }
 
 .img_team_column img {
     border: 5px solid #cacbd9;
+    width: 100%;
+}
+
+.img_team_column .text {
+    width: 100%;
 }
 
 .img_team_column .name {
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Nexa", "Arial";
 }
 
@@ -148,4 +158,12 @@ footer a:hover {
     background-color: #5f617d;
     font-size: 45px;
     font-family: "Nexa", "Arial";
+}
+
+.img_contributors {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 25px 50px;
+    justify-content: center;
 }
