@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Nexa-Black";
+    src: url(/static/fonts/Nexa-Black.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0 0;
     padding: 0;
@@ -108,9 +115,10 @@ footer a:hover {
 }
 
 .p1 {
-    padding: 50px;
+    padding: 50px 100px;
     font-size: 25px;
     font-family: "Nexa", "Arial";
+    text-align: justify;
 }
 
 /* working on the meet the team formatting */
@@ -205,4 +213,25 @@ footer a:hover {
     background-color: #5f617d;
     font-size: 25px;
     font-family: "Nexa", "Arial";
+}
+
+.iv_equipment {
+    width: 100vw;
+    height: 525px;
+    background: url("images/IV_Equipment_Long.png") no-repeat top center;
+    background-size: cover;
+}
+
+.iv_equipment .text1{
+    font-family: "Nexa", "Arial";
+    text-align: right;
+    font-size: 35px;
+    padding: 180px 150px 10px 10px;
+}
+
+.iv_equipment .text2{
+    font-family: "Nexa-Black", "Arial";
+    text-align: right;
+    font-size: 50px;
+    padding: 0px 175px 10px 10px;
 }
