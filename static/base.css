@@ -19,6 +19,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Nexa-Light";
+    src: url(/static/fonts/Nexa-Light.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0 0;
     padding: 0;
@@ -66,19 +73,19 @@ main {
 }
 
 .topnav a:hover {
-    color: #5f617d;
+    color: #51588c;
 }
 
 /* making edits to the bottom navigation bar */
 footer {
-    background-color: #373840;
+    background-color: #061d4a;
     height: 300px;
     flex-shrink: 0;
 }
 
 footer a {
     float: left;
-    color: #f2f2f2;
+    color: white;
     text-align: left;
     padding: 20px 30px;
     text-decoration: none;
@@ -87,7 +94,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #cacbd9;
+    color: #b8cffc;
 }
 
 .header_main {
@@ -116,13 +123,13 @@ footer a:hover {
 .header {
     padding: 100px;
     text-align: center;
-    background-color: #cacbd9;
+    background-color: #b8cffc;
     font-size: 75px;
     font-family: "Nexa", "Arial";
 }
 
 .p1 {
-    padding: 50px 100px;
+    padding: 50px 200px;
     font-size: 25px;
     font-family: "Nexa", "Arial";
     text-align: justify;
@@ -137,7 +144,7 @@ footer a:hover {
 }
 
 .img_team_center img {
-    border: 5px solid #cacbd9;
+    border: 5px solid #b8cffc;
     width: 100%;
 }
 
@@ -153,7 +160,7 @@ footer a:hover {
 .img_team_center .title {
     font-size: 25px;
     font-family: "Nexa", "Arial";
-    color: #5f617d;
+    color: #51588c;
 }
 
 .img_team_center .description {
@@ -170,7 +177,7 @@ footer a:hover {
 }
 
 .img_team_column img {
-    border: 5px solid #cacbd9;
+    border: 5px solid #b8cffc;
     width: 100%;
 }
 
@@ -186,7 +193,7 @@ footer a:hover {
 .img_team_column .title {
     font-size: 25px;
     font-family: "Nexa", "Arial";
-    color: #5f617d;
+    color: #51588c;
 }
 
 .img_team_column .description {
@@ -198,7 +205,7 @@ footer a:hover {
 .header_small {
     padding: 25px;
     text-align: center;
-    background-color: #5f617d;
+    background-color: #51588c;
     font-size: 45px;
     font-family: "Nexa", "Arial";
 }
@@ -270,33 +277,52 @@ footer a:hover {
 .heading {
     font-family: "Nexa-Bold", "Arial";
     text-align: left;
-    font-size: 45px;
-    padding: 50px 0px 0px 100px;
+    font-size: 50px;
+    padding: 0px 0px 0px 200px;
+}
+
+.p1_homepage {
+    font-size: 25px;
+    padding: 75px 0px 0px 200px;
+    font-family: "Nexa-Light", "Arial";
 }
 
 .trio_boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    padding: 20px 100px 100px 100px;
+    padding: 20px 200px 100px 200px;
 }
 
 .box {
-    background-color: #19469e;
+    background-color: #427ced;
     font-family: "Nexa", "Arial";
-    font-size: 30px;
+    font-size: 25px;
     color: white;
-    border-radius: 15px;
-    height: 100px;
-    padding: 50px 10px 50px 10px;
+    border-radius: 3px;
+    aspect-ratio: 1 / 1;
     text-align: center;
+    box-shadow: 2px 3px 3px #19469e;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.num_large {
+    font-family: "Nexa-Black", "Arial";
+    font-size: 60px;
+    color: white;
+    justify-self: center;
+    align-self: center;
 }
 
 hr {
     border: none;
     height: 3px;
     margin: 0;
-    margin-left: 100px;
+    margin-left: 200px;
     background-color: black;
-    width: 25%;
+    width: 28%;
 }
