@@ -3,15 +3,21 @@
 {% block content %}
     <body>
         <div class="header">Leakage</div>
-        <div class="p1">
-            When IV infiltration occurs, fluid from the IV can begin to leak out of the puncture site and onto the
-            surface of the skin. A cellulose detection pad absorbs this leaked medication and changes color: an
-            indication to the patient and staff that the IV has failed. Dye color change is visible at ~0.1mL infiltrated
-            fluid, therefore leakage events are caught early before they become serious.
+        <div class="iv_diagram">
+            <div class="image">
+                <img src="{{ url_for('static', filename='images/Leakage_Layers.png') }}" alt="IV" style="width:auto;height:300px">
+            </div>
+            <div class="text2">
+                When IV infiltration occurs, fluid from the IV can begin to leak out of the puncture site and onto the
+                surface of the skin. A cellulose detection pad absorbs this leaked medication and changes color: an
+                indication to the patient and staff that the IV has failed. Dye color change is visible at ~0.1mL infiltrated
+                fluid, therefore leakage events are caught early before they become serious.
+            </div>
         </div>
 
-        <div class="image_homepage">
-            <img src="{{ url_for('static', filename='images/Leakage_Layers.png') }}" alt="IV" style="width:auto;height:300px">
+        <div class="p1">
+            A healthy IV site will show no color change. But the moment leakage occurs, the IV site will turn bright blue:
+            a clear sign that it needs replacing.
         </div>
 
         <div class="image_homepage">

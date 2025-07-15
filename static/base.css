@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: "Nexa-Bold";
+    src: url(/static/fonts/Nexa-Bold.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Nexa-Black";
     src: url(/static/fonts/Nexa-Black.woff2) format("woff2");
     font-weight: normal;
@@ -251,4 +258,44 @@ footer a:hover {
 
 .iv_diagram .image {
     padding: 0px 0px 0px 100px;
+}
+
+.iv_diagram .text2 {
+    font-family: "Nexa", "Arial";
+    text-align: left;
+    font-size: 25px;
+    padding: 100px 150px 100px 50px;
+}
+
+.heading {
+    font-family: "Nexa-Bold", "Arial";
+    text-align: left;
+    font-size: 45px;
+    padding: 50px 0px 0px 100px;
+}
+
+.trio_boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 20px 100px 100px 100px;
+}
+
+.box {
+    background-color: #19469e;
+    font-family: "Nexa", "Arial";
+    font-size: 30px;
+    color: white;
+    border-radius: 15px;
+    height: 100px;
+    padding: 50px 10px 50px 10px;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    margin: 0;
+    left-margin: 100px;
+    color: black;
 }
