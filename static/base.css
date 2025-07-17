@@ -283,7 +283,7 @@ footer a:hover {
 
 .p1_homepage {
     font-size: 25px;
-    padding: 75px 0px 0px 200px;
+    padding: 75px 200px 0px 200px;
     font-family: "Nexa-Light", "Arial";
 }
 
@@ -325,4 +325,8 @@ hr {
     margin-left: 200px;
     background-color: black;
     width: 28%;
+}
+
+.people {
+    margin-top: 15px;
 }
