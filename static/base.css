@@ -319,11 +319,20 @@ footer a:hover {
     align-self: center;
 }
 
-hr {
+hr.left {
     border: none;
     height: 3px;
     margin: 0;
     margin-left: 200px;
+    background-color: black;
+    width: 28%;
+}
+
+hr.right {
+    border: none;
+    height: 3px;
+    margin: 0;
+    margin-right: 200px;
     background-color: black;
     width: 28%;
 }
@@ -396,5 +405,14 @@ hr {
 }
 
 .leakage_content .image_right {
-    padding: 0px 150px 0px 0px;
+    padding: 0px 0px 0px 50px;
+}
+
+.header_swelling {
+    padding: 100px;
+    text-align: center;
+    background-color: #b8cffc;
+    font-size: 75px;
+    font-family: "Gill Sans";
+    background-size: cover;
 }
