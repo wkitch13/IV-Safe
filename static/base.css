@@ -269,22 +269,23 @@ footer a:hover {
 
 .iv_diagram .text2 {
     font-family: "Nexa", "Arial";
-    text-align: left;
+    text-align: justify;
     font-size: 25px;
-    padding: 100px 150px 100px 50px;
+    padding: 20px 25px 50px 200px;
 }
 
 .heading {
-    font-family: "Nexa-Bold", "Arial";
+    font-family: "Gill Sans", "Arial";
     text-align: left;
     font-size: 50px;
     padding: 0px 0px 0px 200px;
 }
 
 .p1_homepage {
-    font-size: 25px;
+    font-size: 20px;
     padding: 75px 200px 0px 200px;
-    font-family: "Nexa-Light", "Arial";
+    font-family: "Gill Sans", "Arial";
+    color: #19469e;
 }
 
 .trio_boxes {
@@ -329,4 +330,71 @@ hr {
 
 .people {
     margin-top: 15px;
+}
+
+.header_leakage {
+    padding: 100px;
+    text-align: center;
+    background: url("images/leakage_banner.png") no-repeat top center;
+    background-color: #b8cffc;
+    font-size: 75px;
+    font-family: "Gill Sans";
+    background-size: cover;
+}
+
+.heading_left {
+    font-family: "Gill Sans", "Arial";
+    text-align: left;
+    font-size: 50px;
+    padding: 0px 0px 0px 200px;
+}
+
+.subheading_left {
+    font-size: 20px;
+    padding: 75px 200px 0px 200px;
+    font-family: "Gill Sans", "Arial";
+    color: #19469e;
+}
+
+.heading_right {
+    font-family: "Gill Sans", "Arial";
+    text-align: right;
+    font-size: 50px;
+    padding: 0px 200px 0px 0px;
+}
+
+.subheading_right {
+    font-size: 20px;
+    padding: 75px 200px 0px 200px;
+    font-family: "Gill Sans", "Arial";
+    color: #19469e;
+    text-align: right;
+}
+
+.leakage_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.leakage_content .text_left {
+    font-family: "Nexa", "Arial";
+    text-align: justify;
+    font-size: 25px;
+    padding: 20px 25px 0px 200px;
+}
+
+.leakage_content .image_left {
+    padding: 0px 0px 0px 100px;
+}
+
+.leakage_content .text_right {
+    font-family: "Nexa", "Arial";
+    text-align: justify;
+    font-size: 25px;
+    padding: 20px 200px 50px 25px;
+}
+
+.leakage_content .image_right {
+    padding: 0px 150px 0px 0px;
 }
