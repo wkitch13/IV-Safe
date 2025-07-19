@@ -416,3 +416,16 @@ hr {
     font-family: "Gill Sans";
     background-size: cover;
 }
+
+ul.arrow_bullets {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.arrow_bullets li {
+  background: url('images/arrow_bullet.png') no-repeat left top;
+  background-size: 25px 15px;
+  padding-left: 45px;
+  background-position: left 0px top 10px;
+  margin-bottom: 8px;
+}
