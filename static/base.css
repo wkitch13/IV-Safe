@@ -87,14 +87,25 @@ footer a {
     float: left;
     color: white;
     text-align: left;
-    padding: 20px 30px;
+    padding: 5px 30px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 15px;
     font-family: "Nexa", "Arial";
 }
 
 footer a:hover {
     color: #b8cffc;
+}
+
+footer img {
+    padding: 25px 0px 0px 25px;
+}
+
+footer .footer_links {
+    display: flex;
+    flex-direction: column;
+    flex-align: left;
+    padding: 25px 0px;
 }
 
 .header_main {
@@ -121,11 +132,11 @@ footer a:hover {
 }
 
 .header {
-    padding: 100px;
+    padding: 75px;
     text-align: center;
     background-color: #b8cffc;
     font-size: 75px;
-    font-family: "Nexa", "Arial";
+    font-family: "Gill Sans", "Arial";
 }
 
 .p1 {
