@@ -5,45 +5,71 @@
         <div class="header_leakage"><b>LEAKAGE</b></div>
 
         <div class="subheading_left">HOW DO WE KNOW?</div>
-        <div class="heading_left"><b>Primary Symptoms</b></div>
-        <hr.left>
+        <div class="heading_left">
+            <b>Primary Symptoms</b>
+            <hr>
+        </div>
+
+<!--        When IV infiltration occurs, fluid from the IV can begin to leak out of the puncture site and onto the-->
+<!--        surface of the skin. A cellulose detection pad absorbs this leaked medication and changes color: an-->
+<!--        indication to the patient and staff that the IV has failed. Dye color change is visible at ~0.1mL infiltrated-->
+<!--        fluid, therefore leakage events are caught early before they become serious.-->
 
         <div class="leakage_content">
             <div class="text_left">
-                When IV infiltration occurs, fluid from the IV can begin to leak out of the puncture site and onto the
-                surface of the skin. A cellulose detection pad absorbs this leaked medication and changes color: an
-                indication to the patient and staff that the IV has failed. Dye color change is visible at ~0.1mL infiltrated
-                fluid, therefore leakage events are caught early before they become serious.
+                As IV fluid begins to infiltrate into the surrounding tissue, liquid will begin to leak out of the
+                IV site itself. We designed a cellulose-based detection pad to replace current Tegaderm™ films. Upon
+                absorbing these leaked fluids, its bright color change illustrates to patients, family members, and care
+                providers that failure has occurred.
             </div>
             <div class="image_right">
                 <img src="{{ url_for('static', filename='images/IV_Equipment_Shape.png') }}" alt="IV" style="width:auto;height:350px">
             </div>
         </div>
 
-        <div class="subheading_right">NEXT STEPS</div>
-        <div class="heading_right"><b>Our Solution</b></div>
-        <hr.right>
+        <div class="content_right">
+            <div class="subheading_right">NEXT STEPS</div>
+            <div class="heading_right">
+                <b>Our Solution</b>
+                <hr>
+            </div>
+        </div>
 
         <div class="leakage_content">
             <div class="image_left">
                 <img src="{{ url_for('static', filename='images/Leakage_Layers.png') }}" alt="IV" style="width:auto;height:300px">
             </div>
             <div class="text_right">
-                When IV infiltration occurs, fluid from the IV can begin to leak out of the puncture site and onto the
-                surface of the skin. A cellulose detection pad absorbs this leaked medication and changes color: an
-                indication to the patient and staff that the IV has failed. Dye color change is visible at ~0.1mL infiltrated
-                fluid, therefore leakage events are caught early before they become serious.
+                Our solution is made up of four layers: a bright-blue dye layer that appears only when leakage occurs, a
+                cellulose leakage detector that is sensitive to only IV fluids, and an adhesive coating that adheres around
+                the IV site. A transparent, flexible IV patch sits atop to secure the needle itself and allow full visibility
+                of any color change.
             </div>
         </div>
 
-        <div class="p1">
-            A healthy IV site will show no color change. But the moment leakage occurs, the IV site will turn bright blue:
-            a clear sign that it needs replacing.
+        <div class="trio_boxes">
+            <div class="box">
+                color change is visible at
+                <div class="num_large">0.1 mL</div>
+                of leaked fluid.
+            </div>
+            <div class="box">
+                <div class="num_large">NO</div>
+                color change upon contact with sweat.
+            </div>
+            <div class="box">
+                <div class="num_large">wahoo</div>
+                yay
+            </div>
         </div>
 
         <div class="image_homepage">
             <img src="{{ url_for('static', filename='images/Leakage_IV_Normal.png') }}" alt="IV" style="width:auto;height:300px">
             <img src="{{ url_for('static', filename='images/Leakage_IV_Failed.png') }}" alt="IV" style="width:auto;height:300px">
+            <div class="p1">
+            A healthy IV site will show no color change. But the moment leakage occurs, the IV site will turn bright blue:
+            a clear sign that it needs replacing.
+            </div>
         </div>
     </body>
 {% endblock %}
