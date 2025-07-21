@@ -104,7 +104,7 @@ footer img {
 footer .footer_links {
     display: flex;
     flex-direction: column;
-    flex-align: left;
+    flex-align: right;
     padding: 25px 0px;
 }
 
