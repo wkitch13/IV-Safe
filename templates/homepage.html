@@ -68,9 +68,16 @@
             </div>
         </div>
 
-        <div class="p1">
-            The cost? In minor cases, blistering in pain. But in major cases? Scarring. Limbs. Lives.
-            Costs hospitals >18,000 USD per IV failure in adults, and >300,000,000 USD for neonates.
+        <div class="leakage_content">
+            <div class="text_left">
+                The cost? In minor cases, blistering in pain. But in major cases? Scarring. Limbs. Lives. <br><br>
+                IV failure costs hospitals over 18,000 USD per failure event in adults, and over 300,000,000 USD
+                for neonates.
+            </div>
+            <div class="image_right">
+                <img src="{{ url_for('static', filename='images/IV_Equipment_Shape.png') }}" alt="IV" style="width:auto;height:300px">
+            </div>
+            <br><br>
         </div>
 
         <div class="iv_equipment">
@@ -86,25 +93,97 @@
         <div class="p1">Current methods of IV detection are few and too expensive for mass implementation
             or use in low-resource settings.</div>
 
-        <div class="heading">IV-Safe offers a solution:</div>
-        <div class="p1">A simple patch that replaces the Tegaderm™ currently placed around an IV site, manufatured to
-            change color upon IV failre. </div>
+        <div class="content_left">
+            <div class="subheading_left">WHAT DO WE DO NEXT?</div>
+            <div class="heading_left">
+                <b>IV-Safe offers a solution.</b>
+                <hr>
+            </div>
+        </div>
 
-        <div class="p1">No electronic hookups. No training. Low cost.</div>
-        <a href="/leakage">Leakage Detection</a>
-        <a href="/swelling">Swelling Detection</a>
+        <div class="leakage_content">
+            <div class="image_left">
+                <img src="{{ url_for('static', filename='images/Leakage_Layers.png') }}" alt="IV" style="width:auto;height:300px">
+            </div>
+            <div class="text_right">
+                A simple patch that replaces the Tegaderm™ currently placed around an IV site, manufactured to
+                change color upon IV failure.
+                <br><br>
+                A lifesaving beacon for patients, especially for those who cannot advocate for themselves.
+            </div>
+        </div>
+
+        <div class="four_boxes">
+            <div class="four_box">
+                No<br>Electronics
+                <div class="people">
+                    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="IV"
+                         style="display:inline-block;width:auto;height:40px">
+                </div>
+            </div>
+            <div class="four_box">
+                No<br>Specialized<br>Training
+                <div class="people">
+                    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="IV"
+                         style="display:inline-block;width:auto;height:40px">
+                </div>
+            </div>
+            <div class="four_box">
+                Seamless<br>Integration
+                <div class="people">
+                    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="IV"
+                         style="display:inline-block;width:auto;height:40px">
+                </div>
+            </div>
+            <div class="four_box">
+                Low<br>Cost
+                <div class="people">
+                    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="IV"
+                         style="display:inline-block;width:auto;height:40px">
+                </div>
+            </div>
+        </div>
+
+        <div class="blue_heading">SEE OUR SOLUTIONS</div>
+        <br>
+        <div class="image_pair">
+            <a href="/leakage">
+                <img src="{{ url_for('static', filename='images/Leakage_Patch.png') }}" alt="IV" style="width:50vw;height:auto">
+            </a>
+            <a href="/swelling">
+                <img src="{{ url_for('static', filename='images/Swelling_Patch.png') }}" alt="IV" style="width:50vw;height:auto">
+            </a>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="blue_heading">CONTACT US</div>
+        <br>
+        <div class="image_pair">
+            <a href="/team">
+                <img src="{{ url_for('static', filename='images/WrenK.jpeg') }}" alt="IV" style="width:50vw;height:auto">
+            </a>
+            <a href="/about">
+                <img src="{{ url_for('static', filename='images/WrenK.jpeg') }}" alt="IV" style="width:50vw;height:auto">
+            </a>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="heading_left">Learn more about IV failure...</div>
 
         <div class="p1">
-            When IV infilration occurs, the administered fluid begins to leak out of the vein and into the surrounding tissue.
-            Minor infiltration events lead to swelling, blistering, and pain. However, severe cases can lead to tissue
-            necrosis, amputation, and even death.
+            When IV infilration occurs, the administered fluid begins to leak out of the vein and into the surrounding
+            tissue. Minor infiltration events lead to swelling, blistering, and pain. However, severe cases can lead to
+            tissue necrosis, amputation, and even death.
         </div>
 
         <div class="iv_diagram">
             <div class="image">
                 <img src="{{ url_for('static', filename='images/healthy_iv.png') }}" alt="IV" style="width:auto;height:300px">
             </div>
-            <div class="text">A healthy IV conforms to the shape of the vein and inputs fluid directly into the bloodstream.</div>
+            <div class="text">A healthy IV conforms to the shape of the vein and inputs fluid directly into the
+                bloodstream.</div>
 
             <div class="image">
                 <img src="{{ url_for('static', filename='images/failed_iv_1.png') }}" alt="IV" style="width:auto;height:300px">

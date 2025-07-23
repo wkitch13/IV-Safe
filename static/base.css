@@ -87,7 +87,7 @@ footer a {
     float: left;
     color: white;
     text-align: left;
-    padding: 5px 30px;
+    padding: 10px 45px;
     text-decoration: none;
     font-size: 15px;
     font-family: "Nexa", "Arial";
@@ -98,7 +98,7 @@ footer a:hover {
 }
 
 footer img {
-    padding: 25px 0px 0px 25px;
+    padding: 25px 0px 0px 0px;
 }
 
 footer .footer_links {
@@ -304,7 +304,7 @@ footer .footer_links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    padding: 20px 200px 100px 200px;
+    padding: 20px 200px 50px 200px;
 }
 
 .box {
@@ -333,6 +333,27 @@ footer .footer_links {
 
 .people {
     margin-top: 15px;
+}
+
+.four_boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 20px 150px 100px 150px;
+    height: 300px;
+}
+
+.four_box {
+    background-color: white;
+    font-family: "Gill Sans", "Arial";
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header_leakage {
@@ -439,4 +460,29 @@ ul.arrow_bullets li {
   padding-left: 45px;
   background-position: left 0px top 10px;
   margin-bottom: 8px;
+}
+
+.image_pair {
+    display: flex;
+    flex-direction: row;
+    flex-align: center;
+    margin: 0;
+    gap: 10px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_pair .a .img { /* trying to make two images span the entire width of the screen and both be links. */
+    margin: 0;
+    border: 10px;
+    width: 100%;
+}
+
+.blue_heading {
+    text-align: center;
+    font-family: "Gill Sans";
+    font-size: 55px;
+    text-weight 500;
+    color: #19469e;
 }
