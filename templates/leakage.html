@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <body>
+        <div class="header_leakage"><b>LEAKAGE</b></div>
+
+        <div class="subheading_left">HOW DO WE KNOW?</div>
+        <div class="heading_left">
+            <b>Primary Symptoms</b>
+            <hr>
+        </div>
+
+<!--        When IV infiltration occurs, fluid from the IV can begin to leak out of the puncture site and onto the-->
+<!--        surface of the skin. A cellulose detection pad absorbs this leaked medication and changes color: an-->
+<!--        indication to the patient and staff that the IV has failed. Dye color change is visible at ~0.1mL infiltrated-->
+<!--        fluid, therefore leakage events are caught early before they become serious.-->
+
+        <div class="leakage_content">
+            <div class="text_left">
+                As IV fluid begins to infiltrate into the surrounding tissue, liquid will begin to leak out of the
+                IV site itself.
+                <br><br>
+                We designed a cellulose-based detection pad to replace current Tegaderm™ films. Upon
+                absorbing these leaked fluids, its bright color change illustrates to patients, family members, and care
+                providers that failure has occurred.
+            </div>
+            <div class="image_right">
+                <img src="{{ url_for('static', filename='images/iv_site_2.jpg') }}" alt="IV" style="width:auto;height:400px">
+            </div>
+        </div>
+
+        <div class="content_right">
+            <div class="subheading_right">NEXT STEPS</div>
+            <div class="heading_right">
+                <b>Our Solution</b>
+                <hr>
+            </div>
+        </div>
+
+        <div class="leakage_content">
+            <div class="image_left">
+                <img src="{{ url_for('static', filename='images/Leakage_Layers.png') }}" alt="IV" style="width:auto;height:300px">
+            </div>
+            <div class="text_right">
+                Our swelling patch is made up of four layers: <br>
+                <ul class="arrow_bullets">
+                    <li>A bright-blue dye layer that appears only when leakage occurs. </li>
+                    <li>A cellulose detector that is only sensitive to IV fluids. </li>
+                    <li>An adhesive coating that adheres around the IV site. </li>
+                </ul>
+                A transparent, flexible IV patch sits atop to secure the needle itself and allow full visibility
+                of any color change.
+            </div>
+        </div>
+
+        <div class="construction">
+            <div>
+                Thanks for visiting! This website is currently under construction.
+                <br> Contact us at info@iv-safe.com with any questions.
+            </div>
+            <div><img src="{{ url_for('static', filename='images/hardhat.png') }}" alt="IV" style="width:auto;height:75px"></div>
+        </div>
+
+        <br>
+
+        <!--
+        <div class="trio_boxes">
+            <div class="box">
+                color change is visible at
+                <div class="num_large">0.1 mL</div>
+                of leaked fluid.
+            </div>
+            <div class="box">
+                <div class="num_large">NO</div>
+                color change upon contact with sweat.
+            </div>
+            <div class="box">
+                <div class="num_large">wahoo</div>
+                yay
+            </div>
+        </div>
+
+        <div class="image_homepage">
+            <img src="{{ url_for('static', filename='images/Leakage_IV_Normal.png') }}" alt="IV" style="width:auto;height:300px">
+            <img src="{{ url_for('static', filename='images/Leakage_IV_Failed.png') }}" alt="IV" style="width:auto;height:300px">
+            <div class="p1">
+            A healthy IV site will show no color change. But the moment leakage occurs, the IV site will turn bright blue:
+            a clear sign that it needs replacing.
+            </div>
+        </div>
+
+        -->
+
+    </body>
+{% endblock %}

@@ -1,0 +1,230 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <body>
+        <div class="header_main">
+<!--            <h1>IV-SAFE</h1>-->
+            <img src="{{ url_for('static', filename='images/logo_text_only.png') }}" alt="IV" style="width:auto;height:150px">
+            <div class="subtext">
+                A low-cost, non-electrical solution to IV failure. <br> Protecting patients and care providers alike.
+            </div>
+        </div>
+
+        <div class="p1_homepage">IF 90% OF US PATIENTS RECEIVE IV THERAPY...</div>
+        <div class="heading">
+            What is our risk?
+            <hr>
+        </div>
+
+        <div class="trio_boxes">
+            <div class="box">
+                <div class="num_large">50%</div>
+                of all IVs fail.
+                <div class="people">
+                    <img src="{{ url_for('static', filename='images/person_blue.png') }}" alt="IV"
+                         style="display:inline-block;width:auto;height:40px">
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                </div>
+            </div>
+            <div class="box">
+                <div class="num_large">>60%</div>
+                failure in children.
+                <div class="people">
+                    <img src="{{ url_for('static', filename='images/person_blue.png') }}" alt="IV"
+                         style="display:inline-block;width:auto;height:40px">
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                </div>
+            </div>
+            <div class="box">
+                <div class="num_large">>90%</div>
+                failure in infants.
+                <div class="people">
+                    <img src="{{ url_for('static', filename='images/person_blue.png') }}" alt="IV"
+                         style="display:inline-block;width:auto;height:40px">
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                    <br>
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                    <img src="{{ url_for('static', filename='images/person_white.png') }}" alt="IV"
+                         style="width:display:inline-block;auto;height:40px">
+                </div>
+            </div>
+        </div>
+
+        <div class="leakage_content">
+            <div class="text_left">
+                The cost? In minor cases, blistering in pain. But in major cases? Scarring. Limbs. Lives. <br><br>
+                IV failure costs hospitals over 18,000 USD per failure event in adults, and over 300,000,000 USD
+                for neonates.
+            </div>
+            <div class="image_right">
+                <img src="{{ url_for('static', filename='images/iv_site_1.jpg') }}" alt="IV" style="width:auto;height:300px">
+            </div>
+            <br><br>
+        </div>
+
+        <div class="iv_equipment">
+            <div class="text1">
+                IVs are the cornerstone <br>of modern medical care.
+            </div>
+            <div class="text2">
+                But they fail.
+            </div>
+        </div>
+
+        <br>
+        <div class="blue_heading">THIS PROBLEM IMPACTS ALL OF US.</div>
+        <div class="p1">Current methods of IV detection are few and too expensive for mass implementation
+            or use in low-resource settings.
+            <br><br>Nurses perform hourly checks to examine for redness, swelling, or fluid leakage, but are often overwhelmed
+            by the number of patients they must be monitoring.
+            <br><br>Signs of failure are covered up by clothing or opaque securement patches.
+            <br><br>Newborns and infants cannot advocate for their pain, or explain where it is coming from. Their small,
+            friable veins are the most suceptible to failure.
+        </div>
+
+        <div class="content_left">
+            <div class="subheading_left">WHAT DO WE DO NEXT?</div>
+            <div class="heading_left">
+                <b>IV-Safe offers a solution.</b>
+                <hr>
+            </div>
+        </div>
+
+        <div class="leakage_content">
+            <div class="image_left">
+                <img src="{{ url_for('static', filename='images/Leakage_Layers.png') }}" alt="IV" style="width:auto;height:300px">
+            </div>
+            <div class="text_right">
+                A simple patch that replaces the Tegaderm™ currently placed around an IV site, manufactured to
+                change color upon IV failure.
+                <br><br>
+                A lifesaving beacon for patients, especially for those who cannot advocate for themselves.
+            </div>
+        </div>
+
+        <div class="four_boxes">
+            <div class="four_box">
+                No<br>Electronics
+                <div class="people">
+                    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="IV"
+                         style="display:inline-block;width:auto;height:40px">
+                </div>
+            </div>
+            <div class="four_box">
+                No<br>Specialized<br>Training
+                <div class="people">
+                    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="IV"
+                         style="display:inline-block;width:auto;height:40px">
+                </div>
+            </div>
+            <div class="four_box">
+                Seamless<br>Integration
+                <div class="people">
+                    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="IV"
+                         style="display:inline-block;width:auto;height:40px">
+                </div>
+            </div>
+            <div class="four_box">
+                Low<br>Cost
+                <div class="people">
+                    <img src="{{ url_for('static', filename='images/favicon.png') }}" alt="IV"
+                         style="display:inline-block;width:auto;height:40px">
+                </div>
+            </div>
+        </div>
+
+        <div class="construction">
+            <div>
+                Thanks for visiting! This website is currently under construction.
+                <br> Contact us at info@iv-safe.com with any questions.
+            </div>
+            <div><img src="{{ url_for('static', filename='images/hardhat.png') }}" alt="IV" style="width:auto;height:75px"></div>
+        </div>
+
+        <br>
+
+        <!--
+
+        <div class="blue_heading">SEE OUR SOLUTIONS</div>
+        <br>
+        <div class="image_pair">
+            <a href="/leakage">
+                <img src="{{ url_for('static', filename='images/Leakage_Patch.png') }}" alt="IV" style="width:50vw;height:auto">
+            </a>
+            <a href="/swelling">
+                <img src="{{ url_for('static', filename='images/Swelling_Patch.png') }}" alt="IV" style="width:50vw;height:auto">
+            </a>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="blue_heading">CONTACT US</div>
+        <br>
+        <div class="image_pair">
+            <a href="/team">
+                <img src="{{ url_for('static', filename='images/WrenK.jpeg') }}" alt="IV" style="width:50vw;height:auto">
+            </a>
+            <a href="/about">
+                <img src="{{ url_for('static', filename='images/WrenK.jpeg') }}" alt="IV" style="width:50vw;height:auto">
+            </a>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="heading_left">Learn more about IV failure...</div>
+
+        <div class="p1">
+            When IV infilration occurs, the administered fluid begins to leak out of the vein and into the surrounding
+            tissue. Minor infiltration events lead to swelling, blistering, and pain. However, severe cases can lead to
+            tissue necrosis, amputation, and even death.
+        </div>
+
+        <div class="iv_diagram">
+            <div class="image">
+                <img src="{{ url_for('static', filename='images/healthy_iv.png') }}" alt="IV" style="width:auto;height:300px">
+            </div>
+            <div class="text">A healthy IV conforms to the shape of the vein and inputs fluid directly into the
+                bloodstream.</div>
+
+            <div class="image">
+                <img src="{{ url_for('static', filename='images/failed_iv_1.png') }}" alt="IV" style="width:auto;height:300px">
+            </div>
+            <div class="text">An IV can fail by puncturing through the vein...</div>
+
+            <div class="image">
+                <img src="{{ url_for('static', filename='images/failed_iv_2.png') }}" alt="IV" style="width:auto;height:300px">
+            </div>
+            <div class="text">...or by pulling backwards out of it.</div>
+        </div>
+
+        <div class="p1">
+            Currently, IV infiltration is detected by visually by nurses, or by the patient alerting the medical staff
+            of discomfort. Nurses can easily miss infiltrations due to limited staffing, limited time with the patient,
+            or poor lighting. However, children and neonates may not be able to communicate adequately, and thus IV
+            infiltration may go unnoticed for prolonged periods and increase the risk of complications and severe injury.
+        </div>
+
+        -->
+
+    </body>
+{% endblock %}
+
+
