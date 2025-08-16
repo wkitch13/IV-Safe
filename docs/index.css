@@ -334,6 +334,30 @@ hr {
     padding: 50px 0px 0px 0px;
 }
 
+.leakage_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.leakage_content .text_left {
+    font-family: "Trebuchet MS";
+    text-align: justify;
+    font-size: 25px;
+    padding: 20px 25px 0px 200px;
+}
+.leakage_content .image_left {
+    padding: 0px 0px 0px 100px;
+}
+.leakage_content .text_right {
+    font-family: "Trebuchet MS";
+    text-align: justify;
+    font-size: 25px;
+    padding: 20px 200px 50px 25px;
+}
+.leakage_content .image_right {
+    padding: 0px 0px 0px 50px;
+}
+
 .construction {
     background-color: #061d4a;
     color: white;

@@ -95,7 +95,6 @@ footer .footer_links {
     gap: 50px;
     padding: 20px 200px 50px 200px;
 }
-
 .box {
     background-color: #427ced;
     font-family: "Trebuchet MS";
@@ -111,7 +110,6 @@ footer .footer_links {
     justify-content: center;
     align-items: center;
 }
-
 .num_large {
     font-family: "Trebuchet MS";
     font-weight: 800;
@@ -204,6 +202,14 @@ ul.arrow_bullets li {
   padding-left: 45px;
   background-position: left 0px top 10px;
   margin-bottom: 8px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    margin: 0;
+    background-color: black;
+    width: 100%;
 }
 
 .construction {

@@ -77,7 +77,7 @@ footer a {
     padding: 10px 45px;
     text-decoration: none;
     font-size: 15px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
 }
 
 footer a:hover {
@@ -102,7 +102,7 @@ footer .footer_links {
     background: url("images/IV_drip.jpg") no-repeat top center;
     background-size: cover;
     padding: 100px 0px 80px 100px; /* top right bottom left */
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
 }
 
 .header_main h1 {
@@ -121,13 +121,13 @@ footer .footer_links {
     text-align: center;
     background-color: #b8cffc;
     font-size: 75px;
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
 }
 
 .p1 {
     padding: 50px 200px;
     font-size: 25px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: justify;
 }
 
@@ -150,18 +150,18 @@ footer .footer_links {
 
 .img_team_center .name {
     font-size: 35px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
 }
 
 .img_team_center .title {
     font-size: 25px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     color: #51588c;
 }
 
 .img_team_center .description {
     font-size: 20px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     padding: 25px 0px;
 }
 
@@ -183,18 +183,18 @@ footer .footer_links {
 
 .img_team_column .name {
     font-size: 35px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
 }
 
 .img_team_column .title {
     font-size: 25px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     color: #51588c;
 }
 
 .img_team_column .description {
     font-size: 20px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     padding: 25px 0px 0px 0px;
 }
 
@@ -203,7 +203,7 @@ footer .footer_links {
     text-align: center;
     background-color: #51588c;
     font-size: 45px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
 }
 
 .img_contributors {
@@ -222,7 +222,7 @@ footer .footer_links {
     justify-content: center;
     background-color: #5f617d;
     font-size: 25px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
 }
 
 .iv_equipment {
@@ -233,14 +233,14 @@ footer .footer_links {
 }
 
 .iv_equipment .text1{
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: right;
     font-size: 35px;
     padding: 180px 150px 10px 10px;
 }
 
 .iv_equipment .text2{
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     font-weight: 700;
     text-align: right;
     font-size: 50px;
@@ -254,7 +254,7 @@ footer .footer_links {
 }
 
 .iv_diagram .text {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: left;
     font-size: 30px;
     padding: 0px 150px 0px 50px;
@@ -265,14 +265,14 @@ footer .footer_links {
 }
 
 .iv_diagram .text2 {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: justify;
     font-size: 25px;
     padding: 20px 25px 50px 200px;
 }
 
 .heading {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: left;
     font-size: 50px;
     padding: 0px 0px 0px 200px;
@@ -282,7 +282,7 @@ footer .footer_links {
 .p1_homepage {
     font-size: 20px;
     padding: 75px 200px 0px 200px;
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
     color: #19469e;
 }
 
@@ -295,7 +295,7 @@ footer .footer_links {
 
 .box {
     background-color: #427ced;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     font-size: 25px;
     color: white;
     border-radius: 3px;
@@ -310,7 +310,7 @@ footer .footer_links {
 }
 
 .num_large {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     font-weight: 800;
     font-size: 60px;
     color: white;
@@ -332,7 +332,7 @@ footer .footer_links {
 
 .four_box {
     background-color: white;
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -349,12 +349,12 @@ footer .footer_links {
     background: url("images/leakage_banner.png") no-repeat top center;
     background-color: #b8cffc;
     font-size: 75px;
-    font-family: "Gill Sans";
+    font-family: "Gill Sans", "Avenir Medium";
     background-size: cover;
 }
 
 .heading_left {
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
     text-align: left;
     font-size: 50px;
     padding: 0px 0px 0px 200px;
@@ -364,7 +364,7 @@ footer .footer_links {
 .subheading_left {
     font-size: 20px;
     padding: 75px 200px 0px 200px;
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
     color: #19469e;
 }
 
@@ -378,13 +378,13 @@ footer .footer_links {
 .subheading_right {
     font-size: 20px;
     padding: 50px 200px 0px 0px;
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
     color: #19469e;
     text-align: right;
 }
 
 .heading_right {
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
     text-align: right;
     font-size: 50px;
     padding: 0px 200px 0px 0px;
@@ -406,7 +406,7 @@ hr {
 }
 
 .leakage_content .text_left {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: justify;
     font-size: 25px;
     padding: 20px 25px 0px 200px;
@@ -417,7 +417,7 @@ hr {
 }
 
 .leakage_content .text_right {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: justify;
     font-size: 25px;
     padding: 20px 200px 50px 25px;
@@ -432,7 +432,7 @@ hr {
     text-align: center;
     background-color: #b8cffc;
     font-size: 75px;
-    font-family: "Gill Sans";
+    font-family: "Gill Sans", "Avenir Medium";
     background-size: cover;
 }
 
@@ -468,7 +468,7 @@ ul.arrow_bullets li {
 
 .blue_heading {
     text-align: center;
-    font-family: "Gill Sans";
+    font-family: "Gill Sans", "Avenir Medium";
     font-size: 55px;
     text-weight 500;
     color: #19469e;
@@ -478,7 +478,7 @@ ul.arrow_bullets li {
 .construction {
     background-color: #061d4a;
     color: white;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     font-size: 30px;
     padding: 50px 0px 50px 100px;
     display: flex;
