@@ -68,7 +68,6 @@ footer {
     height: 300px;
     flex-shrink: 0;
 }
-
 footer a {
     float: left;
     color: white;
@@ -78,15 +77,12 @@ footer a {
     font-size: 15px;
     font-family: "Trebuchet MS";
 }
-
 footer a:hover {
     color: #b8cffc;
 }
-
 footer img {
     padding: 25px 0px 0px 0px;
 }
-
 footer .footer_links {
     display: flex;
     flex-direction: column;
@@ -94,109 +90,11 @@ footer .footer_links {
     padding: 25px 0px;
 }
 
-.header_main {
-    margin: 0;
-    text-align: left;
-    font-size: 65px;
-    background:
-        /* linear-gradient(to right, rgba(202, 203, 217, 0.75), rgba(255, 255, 255, 0)), */
-        url("images/IV_drip.jpg") no-repeat top center;
-    background-size: cover;
-    padding: 100px 0px 0px 100px; /* top right bottom left */
-    font-family: "Trebuchet MS";
-}
-
-.header_main h1 {
-    margin: 0; /* removes the default h1 margin */
-}
-
-.header_main .subtext {
-    margin: 0;
-    text-align: left;
-    font-size: 25px;
-    padding: 0px 0px 100px 0px;
-}
-
-.header {
-    padding: 75px;
-    text-align: center;
-    background-color: #b8cffc;
-    font-size: 75px;
-    font-family: "Gill Sans", "Trebuchet MS";
-}
-
 .p1 {
     padding: 50px 200px;
     font-size: 25px;
     font-family: "Trebuchet MS";
     text-align: justify;
-}
-
-/* working on the meet the team formatting */
-.img_team_center {
-    display: flex;
-    align-items: flex-start;
-    gap: 50px;
-    padding: 50px 250px 0px;
-}
-
-.img_team_center img {
-    border: 5px solid #b8cffc;
-    width: 100%;
-}
-
-.img_team_center .text {
-    width: 100%;
-}
-
-.img_team_center .name {
-    font-size: 35px;
-    font-family: "Trebuchet MS";
-}
-
-.img_team_center .title {
-    font-size: 25px;
-    font-family: "Trebuchet MS";
-    color: #51588c;
-}
-
-.img_team_center .description {
-    font-size: 20px;
-    font-family: "Trebuchet MS";
-    padding: 25px 0px;
-}
-
-.img_team_column {
-    display: flex;
-    align-items: flex-start;
-    gap: 25px;
-    padding: 25px 100px;
-}
-
-.img_team_column img {
-    border: 5px solid #b8cffc;
-    width: 100%;
-}
-
-.img_team_column .text {
-    width: 100%;
-}
-
-.img_team_column .name {
-    font-size: 35px;
-    font-family: "Trebuchet MS";
-}
-
-.img_team_column .title {
-    font-size: 25px;
-    font-family: "Trebuchet MS";
-    color: #51588c;
-}
-
-.img_team_column .description {
-    font-size: 20px;
-    font-family: "Trebuchet MS";
-    padding: 25px 0px 0px 0px;
 }
 
 .header_small {
@@ -215,274 +113,10 @@ footer .footer_links {
     justify-content: center;
 }
 
-.image_homepage {
-    display: flex
-    align-items: flex-start;
-    gap: 25px;
-    padding: 50px 50px;
-    justify-content: center;
-    background-color: #5f617d;
-    font-size: 25px;
-    font-family: "Trebuchet MS";
-}
-
-.iv_equipment {
-    width: 100vw;
-    height: 525px;
-    background: url("images/IV_Equipment_Long.jpeg") no-repeat top center;
-    background-size: cover;
-}
-
-.iv_equipment .text1{
-    font-family: "Trebuchet MS";
-    text-align: right;
-    font-size: 35px;
-    padding: 180px 150px 10px 10px;
-}
-
-.iv_equipment .text2{
-    font-family: "Trebuchet MS";
-    font-weight: 700;
-    text-align: right;
-    font-size: 50px;
-    padding: 0px 175px 10px 10px;
-}
-
-.iv_diagram {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-
-.iv_diagram .text {
-    font-family: "Trebuchet MS";
-    text-align: left;
-    font-size: 30px;
-    padding: 0px 150px 0px 50px;
-}
-
-.iv_diagram .image {
-    padding: 0px 0px 0px 100px;
-}
-
-.iv_diagram .text2 {
-    font-family: "Trebuchet MS";
-    text-align: justify;
-    font-size: 25px;
-    padding: 20px 25px 50px 200px;
-}
-
 .heading {
     font-family: "Trebuchet MS";
     text-align: left;
     font-size: 50px;
     padding: 0px 0px 0px 200px;
     display: inline-block;
-}
-
-.p1_homepage {
-    font-size: 20px;
-    padding: 75px 200px 0px 200px;
-    font-family: "Gill Sans", "Trebuchet MS";
-    color: #19469e;
-}
-
-.trio_boxes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    padding: 20px 200px 50px 200px;
-}
-
-.box {
-    background-color: #427ced;
-    font-family: "Trebuchet MS";
-    font-size: 25px;
-    color: white;
-    border-radius: 3px;
-    aspect-ratio: 1 / 1;
-    text-align: center;
-    box-shadow: 2px 3px 3px #19469e;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.num_large {
-    font-family: "Trebuchet MS";
-    font-weight: 800;
-    font-size: 60px;
-    color: white;
-    justify-self: center;
-    align-self: center;
-}
-
-.people {
-    margin-top: 15px;
-}
-
-.four_boxes {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-    padding: 20px 150px 100px 150px;
-    height: 300px;
-}
-
-.four_box {
-    background-color: white;
-    font-family: "Gill Sans", "Trebuchet MS";
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.header_leakage {
-    padding: 100px;
-    text-align: center;
-    background: url("images/leakage_banner.png") no-repeat top center;
-    background-color: #b8cffc;
-    font-size: 75px;
-    font-family: "Gill Sans";
-    background-size: cover;
-}
-
-.heading_left {
-    font-family: "Gill Sans", "Trebuchet MS";
-    text-align: left;
-    font-size: 50px;
-    padding: 0px 0px 0px 200px;
-    display: inline-block;
-}
-
-.subheading_left {
-    font-size: 20px;
-    padding: 75px 200px 0px 200px;
-    font-family: "Gill Sans", "Trebuchet MS";
-    color: #19469e;
-}
-
-.content_right {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.subheading_right {
-    font-size: 20px;
-    padding: 50px 200px 0px 0px;
-    font-family: "Gill Sans", "Trebuchet MS";
-    color: #19469e;
-    text-align: right;
-}
-
-.heading_right {
-    font-family: "Gill Sans", "Trebuchet MS";
-    text-align: right;
-    font-size: 50px;
-    padding: 0px 200px 0px 0px;
-    display: inline-block;
-}
-
-hr {
-    border: none;
-    height: 3px;
-    margin: 0;
-    background-color: black;
-    width: 100%;
-}
-
-.leakage_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-
-.leakage_content .text_left {
-    font-family: "Trebuchet MS";
-    text-align: justify;
-    font-size: 25px;
-    padding: 20px 25px 0px 200px;
-}
-
-.leakage_content .image_left {
-    padding: 0px 0px 0px 100px;
-}
-
-.leakage_content .text_right {
-    font-family: "Trebuchet MS";
-    text-align: justify;
-    font-size: 25px;
-    padding: 20px 200px 50px 25px;
-}
-
-.leakage_content .image_right {
-    padding: 0px 0px 0px 50px;
-}
-
-.header_swelling {
-    padding: 100px;
-    text-align: center;
-    background-color: #b8cffc;
-    font-size: 75px;
-    font-family: "Gill Sans";
-    background-size: cover;
-}
-
-ul.arrow_bullets {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-ul.arrow_bullets li {
-  background: url('images/arrow_bullet.png') no-repeat left top;
-  background-size: 25px 15px;
-  padding-left: 45px;
-  background-position: left 0px top 10px;
-  margin-bottom: 8px;
-}
-
-.image_pair {
-    display: flex;
-    flex-direction: row;
-    flex-align: center;
-    margin: 0;
-    gap: 10px;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-}
-
-.image_pair .a .img { /* trying to make two images span the entire width of the screen and both be links. */
-    margin: 0;
-    border: 10px;
-    width: 100%;
-}
-
-.blue_heading {
-    text-align: center;
-    font-family: "Gill Sans";
-    font-size: 55px;
-    text-weight 500;
-    color: #19469e;
-    padding: 50px 0px 0px 0px;
-}
-
-.construction {
-    background-color: #061d4a;
-    color: white;
-    font-family: "Trebuchet MS";
-    font-size: 30px;
-    padding: 50px 0px 50px 100px;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
 }
