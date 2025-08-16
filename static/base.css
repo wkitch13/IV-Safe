@@ -25,27 +25,42 @@ main {
 }
 
 /* making edits to the top navigation bar */
+
 .topnav {
     background-color: white;
-    overflow: hidden;
-    width: 100%;
-    flex-shrink: 0;
-    height: 135px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
 }
-
-.topnav a {
-    float: left;
+.topnav .logo {
+    /**/
+}
+.topnav .links {
+    display: flex;
+    gap: 50px;
+}
+.topnav .links a {
     line-height: 100px;
-    color: black;
-    text-align: left;
-    padding: 15px 65px;
     text-decoration: none;
-    font-size: 23px;
-    font-family: "Trebuchet MS";
+    color: #061d4a;
+    font-size: 18px;
+    font-family: "Avenir Medium";
 }
-
-.topnav a:hover {
+.topnav .links a:hover {
     color: #51588c;
+}
+.topnav .contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: "Avenir Medium";
+    padding: 10px 30px;
+    background-color: #427ced;
+    border-radius: 20px;
 }
 
 /* making edits to the bottom navigation bar */
