@@ -25,7 +25,6 @@ main {
 }
 
 /* making edits to the top navigation bar */
-
 .topnav {
     background-color: white;
     height: 100px;
@@ -99,9 +98,11 @@ footer .footer_links {
     margin: 0;
     text-align: left;
     font-size: 65px;
-    background: url("images/IV_drip.jpg") no-repeat top center;
+    background:
+        /* linear-gradient(to right, rgba(202, 203, 217, 0.75), rgba(255, 255, 255, 0)), */
+        url("images/IV_drip.jpg") no-repeat top center;
     background-size: cover;
-    padding: 100px 0px 80px 100px; /* top right bottom left */
+    padding: 100px 0px 0px 100px; /* top right bottom left */
     font-family: "Trebuchet MS";
 }
 
