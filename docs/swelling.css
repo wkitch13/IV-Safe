@@ -183,6 +183,14 @@ ul.arrow_bullets li {
   margin-bottom: 8px;
 }
 
+hr {
+    border: none;
+    height: 3px;
+    margin: 0;
+    background-color: black;
+    width: 100%;
+}
+
 .construction {
     background-color: #061d4a;
     color: white;
