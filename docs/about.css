@@ -17,7 +17,6 @@ main {
     height: 25px;
     flex-shrink: 0;
 }
-
 .topborder_blue {
     background-color: #19469e;
     height: 5px;
@@ -27,23 +26,20 @@ main {
 /* making edits to the top navigation bar */
 .topnav {
     background-color: white;
-    height: 100px;
-    position: relative;
+    height: 15%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 150px;
-}
-.topnav .logo {
-    /**/
+    gap: 5%;
 }
 .topnav .links {
     display: flex;
-    gap: 50px;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
 }
 .topnav .links a {
-    line-height: 100px;
     text-decoration: none;
     color: #061d4a;
     font-size: 18px;
