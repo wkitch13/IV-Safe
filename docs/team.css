@@ -1,12 +1,56 @@
+.header {
+    padding: 75px;
+    text-align: center;
+    background-color: #b8cffc;
+    font-size: 75px;
+    font-family: "Gill Sans", "Avenir Medium";
+}
+.header_small {
+    padding: 25px;
+    text-align: center;
+    background-color: #51588c;
+    font-size: 45px;
+    font-family: "Avenir Medium";
+}
+
+.img_team_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 5%;
+    padding: 1% 0%;
+}
+.img_team_center img {
+    border: 5px solid #b8cffc;
+}
+.img_team_center .text {
+    width: 50%;
+}
+.img_team_center .name {
+    font-size: 35px;
+    font-family: "Avenir Medium";
+}
+.img_team_center .title {
+    font-size: 25px;
+    font-family: "Avenir Medium";
+    color: #51588c;
+}
+.img_team_center .description {
+    font-size: 20px;
+    font-family: "Avenir Medium";
+    padding: 1% 0%;
+}
+
+/* General formatting items */
 body {
-    margin: 0 0;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     background-color: white;
 }
-
 main {
     flex: 1;
 }
@@ -59,80 +103,31 @@ main {
 }
 
 /* making edits to the bottom navigation bar */
-footer {
+.footer {
     background-color: #061d4a;
-    height: 300px;
-    flex-shrink: 0;
+    height: 25%;
+    display: flex;
+    gap: 5%;
+    padding: 2.5%;
 }
-
-footer a {
-    float: left;
+.footer .logo {
+    width: 20%;
+    color: white;
+    font-family: "Avenir Medium";
+    font-size: 20px;
+}
+.footer .links {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.footer .links a {
     color: white;
     text-align: left;
-    padding: 10px 45px;
     text-decoration: none;
     font-size: 15px;
     font-family: "Avenir Medium";
 }
-
-footer a:hover {
+.footer .links a:hover {
     color: #b8cffc;
-}
-
-footer img {
-    padding: 25px 0px 0px 0px;
-}
-
-footer .footer_links {
-    display: flex;
-    flex-direction: column;
-    flex-align: right;
-    padding: 25px 0px;
-}
-
-.header {
-    padding: 75px;
-    text-align: center;
-    background-color: #b8cffc;
-    font-size: 75px;
-    font-family: "Gill Sans", "Avenir Medium";
-}
-
-/* working on the meet the team formatting */
-.img_team_center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    gap: 5%;
-    padding: 1% 0%;
-}
-.img_team_center img {
-    border: 5px solid #b8cffc;
-}
-.img_team_center .text {
-    width: 50%;
-}
-.img_team_center .name {
-    font-size: 35px;
-    font-family: "Avenir Medium";
-}
-.img_team_center .title {
-    font-size: 25px;
-    font-family: "Avenir Medium";
-    color: #51588c;
-}
-.img_team_center .description {
-    font-size: 20px;
-    font-family: "Avenir Medium";
-    padding: 1% 0%;
-}
-
-.header_small {
-    padding: 25px;
-    text-align: center;
-    background-color: #51588c;
-    font-size: 45px;
-    font-family: "Avenir Medium";
 }

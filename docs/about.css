@@ -1,9 +1,44 @@
+.p1 {
+    padding: 50px 200px;
+    font-size: 25px;
+    font-family: "Avenir Medium";
+    text-align: justify;
+}
+
+.header_small {
+    padding: 25px;
+    text-align: center;
+    background-color: #51588c;
+    font-size: 45px;
+    font-family: "Avenir Medium";
+}
+
+.img_contributors {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    justify-content: center;
+}
+.img_contributors img {
+    padding: 1% 1%;
+}
+
+.heading {
+    font-family: "Avenir Medium";
+    text-align: left;
+    font-size: 50px;
+    padding: 0px 0px 0px 200px;
+    display: inline-block;
+}
+
+/* General formatting items */
 body {
-    margin: 0 0;
+    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     background-color: white;
 }
 main {
@@ -58,64 +93,31 @@ main {
 }
 
 /* making edits to the bottom navigation bar */
-footer {
+.footer {
     background-color: #061d4a;
-    height: 300px;
-    flex-shrink: 0;
+    height: 25%;
+    display: flex;
+    gap: 5%;
+    padding: 2.5%;
 }
-footer a {
-    float: left;
+.footer .logo {
+    width: 20%;
+    color: white;
+    font-family: "Avenir Medium";
+    font-size: 20px;
+}
+.footer .links {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.footer .links a {
     color: white;
     text-align: left;
-    padding: 10px 45px;
     text-decoration: none;
     font-size: 15px;
     font-family: "Avenir Medium";
 }
-footer a:hover {
+.footer .links a:hover {
     color: #b8cffc;
-}
-footer img {
-    padding: 25px 0px 0px 0px;
-}
-footer .footer_links {
-    display: flex;
-    flex-direction: column;
-    flex-align: right;
-    padding: 25px 0px;
-}
-
-.p1 {
-    padding: 50px 200px;
-    font-size: 25px;
-    font-family: "Avenir Medium";
-    text-align: justify;
-}
-
-.header_small {
-    padding: 25px;
-    text-align: center;
-    background-color: #51588c;
-    font-size: 45px;
-    font-family: "Avenir Medium";
-}
-
-.img_contributors {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 5%;
-    justify-content: center;
-}
-.img_contributors img {
-    padding: 1% 1%;
-}
-
-.heading {
-    font-family: "Avenir Medium";
-    text-align: left;
-    font-size: 50px;
-    padding: 0px 0px 0px 200px;
-    display: inline-block;
 }

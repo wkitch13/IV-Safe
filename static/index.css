@@ -182,14 +182,19 @@ hr {
 .four_box {
     background-color: white;
     font-family: "Gill Sans", "Avenir Medium";
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
+    width: 20%;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.four_box .image {
+    width: 15%;
+    padding: 5%;
 }
 
 .construction {
