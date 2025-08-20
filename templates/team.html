@@ -1,7 +1,35 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
 
-{% block content %}
+    <head>
+        <title>IV-Safe</title>
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.png') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
+    </head>
+
     <body>
+
+    <div class="topnav">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logoprimary.png') }}" alt="IV" style="width:auto;max-height:80px">
+        </div>
+        <div class="links">
+            <a class="active" href="/">Home</a>
+            <a href="/leakage">Leakage Patch</a>
+            <a href="/swelling">Swelling Patch</a>
+            <a href="/team">Team</a>
+            <a href="/about">About</a>
+        </div>
+        <div class="contact">
+            <a href="/about">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="topborder_black"></div>
+    <div class="topborder_blue"></div>
+
+    <main>
+
         <div class="header"><b>MEET OUR TEAM</b></div>
 
         <div class="header_small">Leadership</div>
@@ -150,5 +178,23 @@
             </div>
         </div>
 
+    </main>
+
+    <div class="footer">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logo-white-blue.png') }}" alt="IV" style="width:100%;height:auto">
+            <br>
+            Low-cost. Life-saving.
+        </div>
+        <div class="links">
+            <a class="active" href="/">HOME</a>
+            <a href="/leakage">LEAKAGE PATCH</a>
+            <a href="/swelling">SWELLING PATCH</a>
+            <a href="/team">TEAM</a>
+            <a href="/about">ABOUT</a>
+        </div>
+    </div>
+
     </body>
-{% endblock %}
+
+</html>
