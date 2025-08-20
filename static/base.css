@@ -267,8 +267,8 @@ footer .footer_links {
     font-weight: 800;
     font-size: 45px;
     color: white;
-    justify-self: center;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 .people {
     display: flex;
