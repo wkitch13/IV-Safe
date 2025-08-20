@@ -1,0 +1,124 @@
+.p1 {
+    padding: 50px 200px;
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    text-align: justify;
+}
+
+.header_small {
+    padding: 25px;
+    text-align: center;
+    background-color: #51588c;
+    font-size: 45px;
+    font-family: "Trebuchet MS";
+}
+
+.img_contributors {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    justify-content: center;
+}
+.img_contributors img {
+    padding: 1% 1%;
+}
+
+.heading {
+    font-family: "Trebuchet MS";
+    text-align: left;
+    font-size: 50px;
+    padding: 0px 0px 0px 200px;
+    display: inline-block;
+}
+
+/* General formatting items */
+body {
+    margin: 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+}
+main {
+    flex: 1;
+}
+
+/* adding decorative stripes to the very top of the page */
+.topborder_black {
+    background-color: black;
+    height: 25px;
+    flex-shrink: 0;
+}
+.topborder_blue {
+    background-color: #19469e;
+    height: 5px;
+    flex-shrink: 0;
+}
+
+/* making edits to the top navigation bar */
+.topnav {
+    background-color: white;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.topnav .links {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.topnav .links a {
+    text-decoration: none;
+    color: #061d4a;
+    font-size: 18px;
+    font-family: "Avenir Medium";
+}
+.topnav .links a:hover {
+    color: #51588c;
+}
+.topnav .contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: "Avenir Medium";
+    padding: 10px 30px;
+    background-color: #427ced;
+    border-radius: 20px;
+}
+
+/* making edits to the bottom navigation bar */
+.footer {
+    background-color: #061d4a;
+    height: 25%;
+    display: flex;
+    gap: 5%;
+    padding: 2.5%;
+}
+.footer .logo {
+    width: 20%;
+    color: white;
+    font-family: "Avenir Medium";
+    font-size: 20px;
+}
+.footer .links {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.footer .links a {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Avenir Medium";
+}
+.footer .links a:hover {
+    color: #b8cffc;
+}

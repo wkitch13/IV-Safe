@@ -1,0 +1,223 @@
+.header_leakage {
+    text-align: center;
+    padding: 7.5% 0%;
+    background: url("images/leakage_banner.png") no-repeat top center;
+    background-color: #b8cffc;
+    font-size: 75px;
+    font-family: "Gill Sans", "Avenir Medium";
+    background-size: cover;
+}
+
+.heading_left {
+    font-family: "Gill Sans", "Avenir Medium";
+    text-align: left;
+    font-size: 50px;
+    padding: 0 0 0 10%;
+    display: inline-block;
+}
+.subheading_left {
+    font-size: 20px;
+    padding: 5% 0% 0% 10%;
+    font-family: "Gill Sans", "Avenir Medium";
+    color: #19469e;
+}
+
+/* Clustered together because the underline formatting stops the text from aligning right properly */
+.content_right {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.subheading_right {
+    font-size: 20px;
+    padding: 2.5% 10% 0% 0%;
+    font-family: "Gill Sans", "Avenir Medium";
+    color: #19469e;
+    text-align: right;
+}
+.heading_right {
+    font-family: "Gill Sans", "Avenir Medium";
+    text-align: right;
+    font-size: 50px;
+    padding: 0% 10% 0% 0%;
+    /*display: inline-block;*/
+}
+
+.leakage_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding: 2.5% 5%;
+}
+.leakage_content .text_left {
+    font-family: "Avenir Medium";
+    text-align: justify;
+    font-size: 25px;
+    width: 50%;
+}
+.leakage_content .text_right {
+    font-family: "Avenir Medium";
+    text-align: justify;
+    font-size: 25px;
+    width: 50%;
+}
+.leakage_content .image_left {
+    width: 50%;
+}
+.leakage_content .image_right {
+    width: 40%;
+}
+
+ul.arrow_bullets {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.arrow_bullets li {
+  background: url('images/arrow_bullet.png') no-repeat left top;
+  background-size: 25px 15px;
+  padding-left: 45px;
+  background-position: left 0px top 10px;
+  margin-bottom: 8px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    margin: 0;
+    background-color: black;
+    width: 100%;
+}
+
+.construction {
+    background-color: #061d4a;
+    color: white;
+    font-family: "Trebuchet MS";
+    font-size: 30px;
+    padding: 50px 0px 50px 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.trio_boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 20px 200px 50px 200px;
+}
+.box {
+    background-color: #427ced;
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+    color: white;
+    border-radius: 3px;
+    aspect-ratio: 1 / 1;
+    text-align: center;
+    box-shadow: 2px 3px 3px #19469e;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.num_large {
+    font-family: "Trebuchet MS";
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+    justify-self: center;
+    align-self: center;
+}
+
+/* General formatting items */
+body {
+    margin: 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+}
+main {
+    flex: 1;
+}
+
+/* adding decorative stripes to the very top of the page */
+.topborder_black {
+    background-color: black;
+    height: 25px;
+    flex-shrink: 0;
+}
+.topborder_blue {
+    background-color: #19469e;
+    height: 5px;
+    flex-shrink: 0;
+}
+
+/* making edits to the top navigation bar */
+.topnav {
+    background-color: white;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.topnav .links {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.topnav .links a {
+    text-decoration: none;
+    color: #061d4a;
+    font-size: 18px;
+    font-family: "Avenir Medium";
+}
+.topnav .links a:hover {
+    color: #51588c;
+}
+.topnav .contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: "Avenir Medium";
+    padding: 10px 30px;
+    background-color: #427ced;
+    border-radius: 20px;
+}
+
+/* making edits to the bottom navigation bar */
+.footer {
+    background-color: #061d4a;
+    height: 25%;
+    display: flex;
+    gap: 5%;
+    padding: 2.5%;
+}
+.footer .logo {
+    width: 20%;
+    color: white;
+    font-family: "Avenir Medium";
+    font-size: 20px;
+}
+.footer .links {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.footer .links a {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Avenir Medium";
+}
+.footer .links a:hover {
+    color: #b8cffc;
+}
