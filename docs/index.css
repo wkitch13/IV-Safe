@@ -6,7 +6,6 @@ body {
     height: 100vh;
     background-color: white;
 }
-
 main {
     flex: 1;
 }
@@ -87,35 +86,95 @@ footer .footer_links {
 }
 
 .header_main {
-    margin: 0;
     text-align: left;
     font-size: 65px;
-    background:
-        /* linear-gradient(to right, rgba(202, 203, 217, 0.75), rgba(255, 255, 255, 0)), */
-        url("images/IV_drip.jpg") no-repeat top center;
+    background: url("images/IV_drip.jpg") no-repeat top center;
     background-size: cover;
-    padding: 100px 0px 0px 100px; /* top right bottom left */
-    font-family: "Trebuchet MS";
+    padding: 5% 0% 1% 5%; /* top right bottom left */
+    font-family: "Avenir Medium";
 }
-
-.header_main h1 {
-    margin: 0; /* removes the default h1 margin */
-}
-
 .header_main .subtext {
     margin: 0;
     text-align: left;
     font-size: 25px;
-    padding: 0px 0px 100px 0px;
+    padding: 0% 0% 7.5% 0%;
 }
 
-.header {
-    padding: 75px;
-    text-align: center;
-    background-color: #b8cffc;
-    font-size: 75px;
+.p1_homepage {
+    font-size: 20px;
+    padding: 1% 0% 0% 5%;
     font-family: "Gill Sans", "Trebuchet MS";
+    color: #19469e;
 }
+.heading {
+    font-family: "Gill Sans";
+    text-align: left;
+    font-size: 50px;
+    padding: 0px 0px 0px 200px;
+    display: inline-block;
+}
+
+.trio_boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 1% 0%;
+}
+.box {
+    background-color: #427ced;
+    font-family: "Avenir Medium";
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    width: 20%;
+    height: 20%;
+    aspect-ratio: 1 / 1;
+    text-align: center;
+    box-shadow: 2px 3px 3px #19469e;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.num_large {
+    font-family: "Avenir Medium";
+    font-weight: 800;
+    font-size: 45px;
+    color: white;
+    justify-self: center;
+    align-self: center;
+}
+.people {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 2.5%;
+    width: 10%;
+}
+
+.iv_equipment {
+    width: 100vw;
+    height: 525px;
+    background: url("images/IV_Equipment_Long.jpeg") no-repeat top center;
+    background-size: cover;
+}
+.iv_equipment .text1{
+    font-family: "Trebuchet MS";
+    text-align: right;
+    font-size: 35px;
+    padding: 180px 150px 10px 10px;
+}
+.iv_equipment .text2{
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    text-align: right;
+    font-size: 50px;
+    padding: 0px 175px 10px 10px;
+}
+
 
 .p1 {
     padding: 50px 200px;
@@ -151,94 +210,70 @@ footer .footer_links {
     font-family: "Trebuchet MS";
 }
 
-.iv_equipment {
-    width: 100vw;
-    height: 525px;
-    background: url("images/IV_Equipment_Long.jpeg") no-repeat top center;
-    background-size: cover;
-}
-.iv_equipment .text1{
-    font-family: "Trebuchet MS";
-    text-align: right;
-    font-size: 35px;
-    padding: 180px 150px 10px 10px;
-}
-.iv_equipment .text2{
-    font-family: "Trebuchet MS";
-    font-weight: 700;
-    text-align: right;
-    font-size: 50px;
-    padding: 0px 175px 10px 10px;
-}
-
-.iv_diagram {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-.iv_diagram .text {
-    font-family: "Trebuchet MS";
-    text-align: left;
-    font-size: 30px;
-    padding: 0px 150px 0px 50px;
-}
-.iv_diagram .image {
-    padding: 0px 0px 0px 100px;
-}
-.iv_diagram .text2 {
-    font-family: "Trebuchet MS";
-    text-align: justify;
-    font-size: 25px;
-    padding: 20px 25px 50px 200px;
-}
-
-.heading {
-    font-family: "Trebuchet MS";
+.heading_left {
+    font-family: "Gill Sans", "Avenir Medium";
     text-align: left;
     font-size: 50px;
-    padding: 0px 0px 0px 200px;
+    padding: 0 0 0 10%;
     display: inline-block;
 }
-
-.p1_homepage {
+.subheading_left {
     font-size: 20px;
-    padding: 75px 200px 0px 200px;
-    font-family: "Gill Sans", "Trebuchet MS";
+    padding: 5% 0% 0% 10%;
+    font-family: "Gill Sans", "Avenir Medium";
     color: #19469e;
 }
 
-.trio_boxes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    padding: 20px 200px 50px 200px;
-}
-.box {
-    background-color: #427ced;
-    font-family: "Trebuchet MS";
-    font-size: 25px;
-    color: white;
-    border-radius: 3px;
-    aspect-ratio: 1 / 1;
-    text-align: center;
-    box-shadow: 2px 3px 3px #19469e;
-
+/* Clustered together because the underline formatting stops the text from aligning right properly */
+.content_right {
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
-    justify-content: center;
+    align-items: flex-end;
+}
+.subheading_right {
+    font-size: 20px;
+    padding: 2.5% 10% 0% 0%;
+    font-family: "Gill Sans", "Avenir Medium";
+    color: #19469e;
+    text-align: right;
+}
+.heading_right {
+    font-family: "Gill Sans", "Avenir Medium";
+    text-align: right;
+    font-size: 50px;
+    padding: 0% 10% 0% 0%;
+    /*display: inline-block;*/
+}
+
+.leakage_content {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding: 2.5% 5%;
 }
-.num_large {
-    font-family: "Trebuchet MS";
-    font-weight: 800;
-    font-size: 60px;
-    color: white;
-    justify-self: center;
-    align-self: center;
+.leakage_content .text_left {
+    font-family: "Avenir Medium";
+    text-align: justify;
+    font-size: 25px;
+    width: 50%;
 }
-.people {
-    margin-top: 15px;
+.leakage_content .text_right {
+    font-family: "Avenir Medium";
+    text-align: justify;
+    font-size: 25px;
+    width: 50%;
 }
+.leakage_content .image_left {
+    width: 50%;
+}
+.leakage_content .image_right {
+    width: 40%;
+}
+
+
+
 
 .four_boxes {
     display: grid;
@@ -259,68 +294,7 @@ footer .footer_links {
     justify-content: center;
     align-items: center;
 }
-.heading_left {
-    font-family: "Gill Sans", "Trebuchet MS";
-    text-align: left;
-    font-size: 50px;
-    padding: 0px 0px 0px 200px;
-    display: inline-block;
-}
 
-.subheading_left {
-    font-size: 20px;
-    padding: 75px 200px 0px 200px;
-    font-family: "Gill Sans", "Trebuchet MS";
-    color: #19469e;
-}
-
-.content_right {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.subheading_right {
-    font-size: 20px;
-    padding: 50px 200px 0px 0px;
-    font-family: "Gill Sans", "Trebuchet MS";
-    color: #19469e;
-    text-align: right;
-}
-
-.heading_right {
-    font-family: "Gill Sans", "Trebuchet MS";
-    text-align: right;
-    font-size: 50px;
-    padding: 0px 200px 0px 0px;
-    display: inline-block;
-}
-
-hr {
-    border: none;
-    height: 3px;
-    margin: 0;
-    background-color: black;
-    width: 100%;
-}
-
-.image_pair {
-    display: flex;
-    flex-direction: row;
-    flex-align: center;
-    margin: 0;
-    gap: 10px;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-}
-
-.image_pair .a .img { /* trying to make two images span the entire width of the screen and both be links. */
-    margin: 0;
-    border: 10px;
-    width: 100%;
-}
 
 .blue_heading {
     text-align: center;
@@ -329,30 +303,6 @@ hr {
     text-weight 500;
     color: #19469e;
     padding: 50px 0px 0px 0px;
-}
-
-.leakage_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-.leakage_content .text_left {
-    font-family: "Trebuchet MS";
-    text-align: justify;
-    font-size: 25px;
-    padding: 20px 25px 0px 200px;
-}
-.leakage_content .image_left {
-    padding: 0px 0px 0px 100px;
-}
-.leakage_content .text_right {
-    font-family: "Trebuchet MS";
-    text-align: justify;
-    font-size: 25px;
-    padding: 20px 200px 50px 25px;
-}
-.leakage_content .image_right {
-    padding: 0px 0px 0px 50px;
 }
 
 .construction {
@@ -365,3 +315,41 @@ hr {
     flex-direction: row;
     gap: 100px;
 }
+
+/*.image_pair {
+    display: flex;
+    flex-direction: row;
+    flex-align: center;
+    margin: 0;
+    gap: 10px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.image_pair .a .img { *//* trying to make two images span the entire width of the screen and both be links. *//*
+    margin: 0;
+    border: 10px;
+    width: 100%;
+}*/
+
+/*
+.iv_diagram {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.iv_diagram .text {
+    font-family: "Trebuchet MS";
+    text-align: left;
+    font-size: 30px;
+    padding: 0px 150px 0px 50px;
+}
+.iv_diagram .image {
+    padding: 0px 0px 0px 100px;
+}
+.iv_diagram .text2 {
+    font-family: "Trebuchet MS";
+    text-align: justify;
+    font-size: 25px;
+    padding: 20px 25px 50px 200px;
+}*/

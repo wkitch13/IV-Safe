@@ -64,7 +64,6 @@ footer {
     height: 300px;
     flex-shrink: 0;
 }
-
 footer a {
     float: left;
     color: white;
@@ -74,15 +73,12 @@ footer a {
     font-size: 15px;
     font-family: "Avenir Medium";
 }
-
 footer a:hover {
     color: #b8cffc;
 }
-
 footer img {
     padding: 25px 0px 0px 0px;
 }
-
 footer .footer_links {
     display: flex;
     flex-direction: column;
@@ -91,24 +87,18 @@ footer .footer_links {
 }
 
 .header_main {
-    margin: 0;
     text-align: left;
     font-size: 65px;
     background: url("images/IV_drip.jpg") no-repeat top center;
     background-size: cover;
-    padding: 100px 0px 80px 100px; /* top right bottom left */
+    padding: 5% 0% 1% 5%; /* top right bottom left */
     font-family: "Avenir Medium";
 }
-
-.header_main h1 {
-    margin: 0; /* removes the default h1 margin */
-}
-
 .header_main .subtext {
     margin: 0;
     text-align: left;
     font-size: 25px;
-    padding: 0px 0px 100px 0px;
+    padding: 0% 0% 7.5% 0%;
 }
 
 .header {
@@ -235,7 +225,7 @@ footer .footer_links {
 }
 
 .heading {
-    font-family: "Avenir Medium";
+    font-family: "Gill Sans";
     text-align: left;
     font-size: 50px;
     padding: 0px 0px 0px 200px;
@@ -250,18 +240,20 @@ footer .footer_links {
 }
 
 .trio_boxes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    padding: 20px 200px 50px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 1% 0%;
 }
-
 .box {
     background-color: #427ced;
     font-family: "Avenir Medium";
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     border-radius: 3px;
+    width: 20%;
+    height: 20%;
     aspect-ratio: 1 / 1;
     text-align: center;
     box-shadow: 2px 3px 3px #19469e;
@@ -271,18 +263,21 @@ footer .footer_links {
     justify-content: center;
     align-items: center;
 }
-
 .num_large {
     font-family: "Avenir Medium";
     font-weight: 800;
-    font-size: 60px;
+    font-size: 45px;
     color: white;
     justify-self: center;
     align-self: center;
 }
-
 .people {
-    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 2.5%;
+    width: 10%;
 }
 
 .four_boxes {
