@@ -117,75 +117,75 @@ footer .footer_links {
 }
 
 .header_leakage {
-    padding: 100px;
     text-align: center;
+    padding: 7.5% 0%;
     background: url("images/leakage_banner.png") no-repeat top center;
     background-color: #b8cffc;
     font-size: 75px;
-    font-family: "Gill Sans";
+    font-family: "Gill Sans", "Avenir Medium";
     background-size: cover;
 }
 
 .heading_left {
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
     text-align: left;
     font-size: 50px;
-    padding: 0px 0px 0px 200px;
+    padding: 0 0 0 10%;
     display: inline-block;
 }
-
 .subheading_left {
     font-size: 20px;
-    padding: 75px 200px 0px 200px;
-    font-family: "Gill Sans", "Trebuchet MS";
+    padding: 5% 0% 0% 10%;
+    font-family: "Gill Sans", "Avenir Medium";
     color: #19469e;
 }
 
+/* Clustered together because the underline formatting stops the text from aligning right properly */
 .content_right {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     align-items: flex-end;
 }
-
-.heading_right {
-    font-family: "Gill Sans", "Trebuchet MS";
-    text-align: right;
-    font-size: 50px;
-    padding: 0px 200px 0px 0px;
-    display: inline-block;
-}
-
 .subheading_right {
     font-size: 20px;
-    padding: 50px 200px 0px 0px;
-    font-family: "Gill Sans", "Trebuchet MS";
+    padding: 2.5% 10% 0% 0%;
+    font-family: "Gill Sans", "Avenir Medium";
     color: #19469e;
     text-align: right;
 }
+.heading_right {
+    font-family: "Gill Sans", "Avenir Medium";
+    text-align: right;
+    font-size: 50px;
+    padding: 0% 10% 0% 0%;
+    /*display: inline-block;*/
+}
 
 .leakage_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 5%;
+    padding: 2.5% 5%;
 }
 .leakage_content .text_left {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: justify;
     font-size: 25px;
-    padding: 20px 25px 0px 200px;
-}
-.leakage_content .image_left {
-    padding: 0px 0px 0px 100px;
+    width: 50%;
 }
 .leakage_content .text_right {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: justify;
     font-size: 25px;
-    padding: 20px 200px 50px 25px;
+    width: 50%;
+}
+.leakage_content .image_left {
+    width: 50%;
 }
 .leakage_content .image_right {
-    padding: 0px 0px 0px 50px;
+    width: 40%;
 }
 
 ul.arrow_bullets {
