@@ -16,7 +16,7 @@
 .p1_homepage {
     font-size: 20px;
     padding: 5% 0% 0% 10%;
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
     color: #19469e;
 }
 .heading {
@@ -136,7 +136,7 @@ hr {
 }
 
 .iv_equipment {
-    height: 17.5%;
+    height: 500px;
     background: url("images/IV_Equipment_Long.jpeg") no-repeat top center;
     background-size: cover;
     display: flex;
@@ -168,7 +168,7 @@ hr {
 .p1 {
     padding: 2.5% 10%;
     font-size: 25px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: justify;
 }
 
@@ -180,7 +180,7 @@ hr {
 }
 .four_box {
     background-color: white;
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -194,7 +194,7 @@ hr {
 .construction {
     background-color: #061d4a;
     color: white;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     font-size: 30px;
     padding: 50px 0px 50px 100px;
     display: flex;
@@ -225,7 +225,7 @@ hr {
     align-items: center;
 }
 .iv_diagram .text {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: left;
     font-size: 30px;
     padding: 0px 150px 0px 50px;
@@ -234,7 +234,7 @@ hr {
     padding: 0px 0px 0px 100px;
 }
 .iv_diagram .text2 {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: justify;
     font-size: 25px;
     padding: 20px 25px 50px 200px;
@@ -301,29 +301,31 @@ main {
 }
 
 /* making edits to the bottom navigation bar */
-footer {
+.footer {
     background-color: #061d4a;
-    height: 300px;
-    flex-shrink: 0;
+    height: 25%;
+    display: flex;
+    gap: 5%;
+    padding: 2.5%;
 }
-footer a {
-    float: left;
+.footer .logo {
+    width: 20%;
     color: white;
-    text-align: left;
-    padding: 10px 45px;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
+    font-size: 20px;
 }
-footer a:hover {
-    color: #b8cffc;
-}
-footer img {
-    padding: 25px 0px 0px 0px;
-}
-footer .footer_links {
+.footer .links {
     display: flex;
     flex-direction: column;
-    flex-align: right;
-    padding: 25px 0px;
+    gap: 5%;
+}
+.footer .links a {
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Avenir Medium";
+}
+.footer .links a:hover {
+    color: #b8cffc;
 }

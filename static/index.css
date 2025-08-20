@@ -16,7 +16,7 @@
 .p1_homepage {
     font-size: 20px;
     padding: 5% 0% 0% 10%;
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
     color: #19469e;
 }
 .heading {
@@ -136,7 +136,7 @@ hr {
 }
 
 .iv_equipment {
-    height: 17.5%;
+    height: 500px;
     background: url("images/IV_Equipment_Long.jpeg") no-repeat top center;
     background-size: cover;
     display: flex;
@@ -168,7 +168,7 @@ hr {
 .p1 {
     padding: 2.5% 10%;
     font-size: 25px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: justify;
 }
 
@@ -177,10 +177,11 @@ hr {
     gap: 5%;
     justify-content: center;
     align-items: center;
+    padding: 5%;
 }
 .four_box {
     background-color: white;
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
     font-size: 40px;
     font-weight: 700;
     text-align: center;
@@ -194,7 +195,7 @@ hr {
 .construction {
     background-color: #061d4a;
     color: white;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     font-size: 30px;
     padding: 50px 0px 50px 100px;
     display: flex;
@@ -225,7 +226,7 @@ hr {
     align-items: center;
 }
 .iv_diagram .text {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: left;
     font-size: 30px;
     padding: 0px 150px 0px 50px;
@@ -234,7 +235,7 @@ hr {
     padding: 0px 0px 0px 100px;
 }
 .iv_diagram .text2 {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: justify;
     font-size: 25px;
     padding: 20px 25px 50px 200px;
@@ -246,67 +247,6 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    background-color: white;
-}
-main {
-    flex: 1;
-}
-
-/* adding decorative stripes to the very top of the page */
-.topborder_black {
-    background-color: black;
-    height: 25px;
-    flex-shrink: 0;
-}
-.topborder_blue {
-    background-color: #19469e;
-    height: 5px;
-    flex-shrink: 0;
-}
-
-/* making edits to the top navigation bar */
-.topnav {
-    background-color: white;
-    height: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-}
-.topnav .links {
-    display: flex;
-    gap: 10%;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-}
-.topnav .links a {
-    text-decoration: none;
-    color: #061d4a;
-    font-size: 18px;
-    font-family: "Avenir Medium";
-}
-.topnav .links a:hover {
-    color: #51588c;
-}
-.topnav .contact a {
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
-    font-family: "Avenir Medium";
-    padding: 10px 30px;
-    background-color: #427ced;
-    border-radius: 20px;
-}
-
-/* making edits to the bottom navigation bar */
-body {
-    margin: 0 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
     background-color: white;
 }
 main {
@@ -363,7 +303,6 @@ main {
 /* making edits to the bottom navigation bar */
 .footer {
     background-color: #061d4a;
-    height: 25%;
     display: flex;
     gap: 5%;
     padding: 2.5%;

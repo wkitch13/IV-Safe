@@ -72,7 +72,7 @@ footer a {
     padding: 10px 45px;
     text-decoration: none;
     font-size: 15px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
 }
 
 footer a:hover {
@@ -95,7 +95,7 @@ footer .footer_links {
     text-align: center;
     background-color: #b8cffc;
     font-size: 75px;
-    font-family: "Gill Sans", "Trebuchet MS";
+    font-family: "Gill Sans", "Avenir Medium";
 }
 
 /* working on the meet the team formatting */
@@ -116,16 +116,16 @@ footer .footer_links {
 }
 .img_team_center .name {
     font-size: 35px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
 }
 .img_team_center .title {
     font-size: 25px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     color: #51588c;
 }
 .img_team_center .description {
     font-size: 20px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     padding: 1% 0%;
 }
 
@@ -134,5 +134,5 @@ footer .footer_links {
     text-align: center;
     background-color: #51588c;
     font-size: 45px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
 }

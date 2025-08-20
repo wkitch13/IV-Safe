@@ -94,7 +94,7 @@ hr {
 .construction {
     background-color: #061d4a;
     color: white;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     font-size: 30px;
     padding: 50px 0px 50px 100px;
     display: flex;
@@ -110,7 +110,7 @@ hr {
 }
 .box {
     background-color: #427ced;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     font-size: 25px;
     color: white;
     border-radius: 3px;
@@ -124,7 +124,7 @@ hr {
     align-items: center;
 }
 .num_large {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     font-weight: 800;
     font-size: 60px;
     color: white;

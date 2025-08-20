@@ -1,7 +1,7 @@
 .p1 {
     padding: 50px 200px;
     font-size: 25px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: justify;
 }
 
@@ -10,7 +10,7 @@
     text-align: center;
     background-color: #51588c;
     font-size: 45px;
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
 }
 
 .img_contributors {
@@ -26,7 +26,7 @@
 }
 
 .heading {
-    font-family: "Trebuchet MS";
+    font-family: "Avenir Medium";
     text-align: left;
     font-size: 50px;
     padding: 0px 0px 0px 200px;
