@@ -1,16 +1,15 @@
-.p1 {
-    padding: 50px 200px;
-    font-size: 25px;
-    font-family: "Avenir Medium";
-    text-align: justify;
-}
-
 .header_small {
     padding: 25px;
     text-align: center;
     background-color: #51588c;
     font-size: 45px;
     font-family: "Avenir Medium";
+}
+.p1 {
+    padding: 50px 200px;
+    font-size: 25px;
+    font-family: "Avenir Medium";
+    text-align: justify;
 }
 
 .img_contributors {
@@ -25,7 +24,7 @@
     padding: 1% 1%;
 }
 
-.heading {
+.heading_publication {
     font-family: "Avenir Medium";
     text-align: left;
     font-size: 50px;
