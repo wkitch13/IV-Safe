@@ -127,6 +127,13 @@
 .leakage_content .image_right {
     width: 40%;
 }
+hr {
+    border: none;
+    height: 3px;
+    margin: 0;
+    background-color: black;
+    width: 100%;
+}
 
 .iv_equipment {
     height: 17.5%;

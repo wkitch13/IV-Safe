@@ -59,31 +59,33 @@ main {
 }
 
 /* making edits to the bottom navigation bar */
-footer {
+.footer {
     background-color: #061d4a;
-    height: 300px;
-    flex-shrink: 0;
+    height: 25%;
+    display: flex;
+    gap: 5%;
+    padding: 2.5%;
 }
-footer a {
-    float: left;
+.footer .logo {
+    width: 20%;
+    color: white;
+    font-family: "Avenir Medium";
+    font-size: 20px;
+}
+.footer .links {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.footer .links a {
     color: white;
     text-align: left;
-    padding: 10px 45px;
     text-decoration: none;
     font-size: 15px;
     font-family: "Avenir Medium";
 }
-footer a:hover {
+.footer .links a:hover {
     color: #b8cffc;
-}
-footer img {
-    padding: 25px 0px 0px 0px;
-}
-footer .footer_links {
-    display: flex;
-    flex-direction: column;
-    flex-align: right;
-    padding: 25px 0px;
 }
 
 .header_main {
