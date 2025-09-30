@@ -7,21 +7,23 @@ app = Flask(__name__) # for hosting the website
 def homepage(): # homepage method
     return render_template("index.html")
 
-@app.route('/swelling')
-def swelling():
-    return render_template("swelling.html")
+# They are getting silenced for the purpose of only having a landing page.
 
-@app.route('/leakage')
-def leakage():
-    return render_template("leakage.html")
-
-@app.route('/team') # meet the team
-def team():
-    return render_template("team.html")
-
-@app.route('/about') # contact, support us, publications, etc.
-def about():
-    return render_template("about.html")
-
-if __name__ == '__main__':
-    app.run(debug=True)
+# @app.route('/swelling')
+# def swelling():
+#     return render_template("swelling.html")
+#
+# @app.route('/leakage')
+# def leakage():
+#     return render_template("leakage.html")
+#
+# @app.route('/team') # meet the team
+# def team():
+#     return render_template("team.html")
+#
+# @app.route('/about') # contact, support us, publications, etc.
+# def about():
+#     return render_template("about.html")
+#
+# if __name__ == '__main__':
+#     app.run(debug=True)
